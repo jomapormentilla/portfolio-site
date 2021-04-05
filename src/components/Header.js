@@ -6,7 +6,7 @@ class Header extends React.Component {
             <div className="header">
                 <div>Joma Pormentilla</div>
                 <div>
-                    Menu
+                    <i className="bi-list"></i>
                 </div>
             </div>
         )
