@@ -4,10 +4,8 @@ class Header extends React.Component {
     render(){
         return(
             <div className="header">
-                <div>Joma Pormentilla</div>
-                <div>
-                    <i className="bi-list"></i>
-                </div>
+                <div style={{ fontFamily: 'Bebas Neue', fontSize: '20px' }}>Joma Pormentilla</div>
+                <i className="bi-three-dots" onClick={ this.props.toggleNav }></i>
             </div>
         )
     }
