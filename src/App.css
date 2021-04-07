@@ -44,11 +44,13 @@ i {
     list-style-type: none;
     padding: 10px 0px;
     width: 100%;
+    text-align: right;
   }
 
   .navContainer ul a {
     text-decoration: none;
-    text-indent: 5px;
+    text-indent: 15px;
+    direction: rtl;
     color: #000;
   }
 
@@ -74,7 +76,10 @@ i {
   overflow-y: scroll;
 }
 
-.main {
+.main,
+.contact,
+.blog,
+.about {
   display: flex;
   padding: 15px;
 }
@@ -87,17 +92,13 @@ i {
 
 .project {
   display: flex;
-  flex: 1;
-  flex-basis: 25%;
   justify-content: center;
   align-items: center;
+  flex: 1;
+  flex-basis: 25%;
   background-color: #aaa;
   height: 300px;
   margin: 1px;
-}
-
-.about {
-  padding: 10px;
 }
 
 .footer {
